@@ -1,9 +1,9 @@
 const Express = require('express');
+const bootcamps = require('./routes/bootcamp');
 const app = Express();
+app.use('/api/bootcamps',bootcamps);
 
-app.get('/',(req,res)=>{
-    res.send("Hello Bootcamp");
-})
+
 
 const PORT = process.env.PORT || 4000
 app.listen(PORT,()=>console.log(`Server running at port ${PORT}`))
