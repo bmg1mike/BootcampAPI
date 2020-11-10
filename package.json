@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmg1mike/BootcampAPI.git"
+  },
+  "author": "Michael Boniface",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmg1mike/BootcampAPI/issues"
+  },
+  "homepage": "https://github.com/bmg1mike/BootcampAPI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
